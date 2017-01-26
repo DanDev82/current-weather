@@ -1,0 +1,227 @@
+/*Desktop*/
+body {
+	background-image: url("https://static.pexels.com/photos/158179/lake-constance-sheep-pasture-sheep-blue-158179.jpeg");
+  background-size: cover;
+}
+
+.jumbotron {
+  background: purple;
+  opacity: 0.6;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 6px;
+	padding: 0%;
+  width:100%;
+}
+
+.jumbotron:hover {
+  box-shadow: 0 5px 10px rgba(228,228,228,.95);
+}
+
+.content {
+	text-align: center;
+	color: purple;
+	font-weight: bold;
+	margin: 10% 30%;
+	padding: 0%;
+	size: 100%;
+}
+
+.weather-data {
+	size: 24px;
+	font-family: Helvetica, sans-serif;
+	background: linear-gradient(to bottom right, skyblue, silver);
+	border: 2px solid black;
+	display: none;
+}
+
+/*div.weather-data p {
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 10px;
+}*/
+
+button {
+	border: 1px solid black;
+	border-radius: 6px;
+	padding: 0px 11%;
+	background: linear-gradient(to bottom right, #F0FFF0, skyblue);
+}
+
+input[type=button]{
+  width: 10%;
+  background:	#5bc0de;
+  font-weight:bold;
+  color: white;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+input[type=button]:hover {
+  box-shadow: 0 5px 5px rgba(228,228,228,.95);
+}
+
+.tempF {
+  display: none;
+}
+
+.tempC {
+  display: none;
+}
+
+#temp {
+	text-align: center;
+	padding: 10px;
+}
+
+#wind {
+	text-align: center;
+	padding: 10px;
+}
+
+#loc {
+	text-align: center;
+	padding: 10px;
+}
+
+footer {
+	float: right;
+}
+
+
+
+/*media queries*/
+@media screen and (max-width: 1000px) {
+	body {
+		background: lightgrey;
+		padding: 0px;
+		margin: 0px 0px 15px;
+	}
+
+	.jumbotron {
+		background: lightblue;
+		text-align: center;
+		border: lightgrey;
+		border-radius: 6px;
+		padding: 0%;
+    width:100%;
+	}
+
+	.jumbotron h1 {
+	  font-size: 30px;
+    width:100%;
+	}
+
+  input[type=button]{
+  width: 20%;
+  background:silver;
+  font-weight:bold;
+  color: black;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+input[type="button"]:hover {
+  width: 20%;
+  background:#ACACAC;
+  font-weight: bold;
+  color: black;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 6px;  
+}
+
+	#temp {
+		text-align: center;
+		padding: 4%;
+	}
+
+	#wind {
+		text-align: center;
+		padding: 4%;
+	}
+
+	#loc {
+		text-align: center;
+		padding: 4%;
+	}
+
+	.weather-data {
+	font-size: 11px;
+	font-family: Helvetica, sans-serif;
+	background: linear-gradient(to bottom right, skyblue, silver);
+	border: 2px solid black;
+	display: none;
+  width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+  body {
+    background: lightgrey;
+    padding: 0px;
+    margin: 0px 0px 15px;
+  }
+
+  .jumbotron {
+    background: lightblue;
+    text-align: center;
+    border: lightgrey;
+    border-radius: 6px;
+    padding: 0%;
+    width:100%;
+  }
+
+  .jumbotron h1 {
+    font-size: 30px;
+  }
+
+
+  #temp {
+    text-align: center;
+    padding: 4%;
+  }
+
+  #wind {
+    text-align: center;
+    padding: 4%;
+  }
+
+  #loc {
+    text-align: center;
+    padding: 4%;
+  }
+    
+input[type=button]{
+  width: 20%;
+  background:silver;
+  font-weight:bold;
+  color: black;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+input[type="button"]:hover {
+  width: 20%;
+  background:#ACACAC;
+  font-weight: bold;
+  color: black;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 6px;  
+}
+
+.weather-data {
+	size: 1em;
+	font-family: Helvetica, sans-serif;
+	background: linear-gradient(to bottom right, skyblue, silver);
+	border: 2px solid black;
+	display: none;
+  width:100%;
+	}
+
+}
