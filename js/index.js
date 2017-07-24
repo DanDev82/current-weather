@@ -40,7 +40,7 @@ function getWeather() {
     weather.send(null);
 
     var r = JSON.parse(weather.response);
-    var dis = "Current location: " + r.current_observation.display_location.full + "<br>";
+    var dis = "<strong>Current location: </strong>" + r.current_observation.display_location.full + "<br>";
     var far = r.current_observation.temp_f + " F&deg;" + "<br>";
     var cel = r.current_observation.temp_c + " C&deg;" + "<br>";
     var windDir = r.current_observation.wind_dir;
